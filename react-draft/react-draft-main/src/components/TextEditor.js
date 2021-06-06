@@ -16,14 +16,14 @@ import draftToHtml from "draftjs-to-html";
 // var wb = csv.readFile("data.csv", {type:"array"});
 // console.log(wb);
 // fs.readFile('data.csv')
-const Datastore = require('nedb');
-const savefile = () => {
-  const database = new Datastore({ filename: "./database.db", autoload: true });
-  database.loadDatabase();
+//const Datastore = require('nedb');
+//const savefile = () => {
+//  const database = new Datastore({ filename: "./database.db", autoload: true });
+//  database.loadDatabase();
   
-  database.insert({name: 'sam', status: 'awesome'})
-  document.write(database)
-};
+//  database.insert({name: 'sam', status: 'awesome'})
+//  document.write(database)
+//};
   
 
 
